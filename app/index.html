@@ -15,8 +15,8 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
   <meta charset="utf-8">
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="generator" content="Polymer YDP Starter Kit" />
-  <title>Polymer Starter Kit</title>
+  <meta name="generator" content="Polymer+YDP" />
+  <title>YDP</title>
   <!-- Place favicon.ico in the `app/` directory -->
 
   <!-- Chrome for Android theme color -->
@@ -97,7 +97,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
           <paper-icon-button icon="search"></paper-icon-button>
 
           <!-- Application name -->
-          <div class="middle paper-font-display2 app-name">Polymer Starter Kit</div>
+          <div class="middle paper-font-display2 app-name">YDP - DBMS</div>
 
           <!-- Application sub title -->
           <div class="bottom title"></div>
@@ -184,6 +184,12 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
                          precache-file="precache.json">
       </platinum-sw-cache>
     </platinum-sw-register>
+    <platinum-push-messaging
+      title="Application updated"
+      message="The application was updated in the background"
+      icon-url="images/touch/icon-128x128.png"
+      click-url="notification.html">
+    </platinum-push-messaging>
 
   </template>
 

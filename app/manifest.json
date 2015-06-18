@@ -1,6 +1,7 @@
 {
-  "name": "Polymer Starter Kit",
-  "short_name": "Polymer Starter Kit",
+  "name": "YDP",
+  "gcm_sender_id": "582843892967",
+  "short_name": "YDP",
   "icons": [{
         "src": "images/touch/icon-128x128.png",
         "sizes": "128x128"
@@ -15,5 +16,6 @@
         "sizes": "192x192"
       }],
   "start_url": "/#!/",
-  "display": "standalone"
+  "display": "standalone",
+  "gcm_user_visible_only": true
 }
